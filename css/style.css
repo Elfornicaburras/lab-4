@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-color: black;
+}
+hr {
+margin: auto;
+}
+
+body{
+    margin: 40px;
+}
+
+/*estilos del menu*/
+
+
+.menu-nav {
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    gap: 10px;
+    
+}
+
+.btn-menu {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    color: aliceblue;
+}
+.activo {
+    background-color: blanchedalmond;
+    color: rgb(174, 0, 255);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.pie {
+    background-color: blanchedalmond;
+    color: rgb(174, 0, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.btn-menu:hover {
+    color: coral;
+}
+.activo:hover{
+    color: aquamarine;
+}
+
+.publicidad {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 30px;
+}
+.publicidad img{
+    max-height: min-content;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 120%;
+}
+
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tarjeta {
+    border: 2px solid rgb(132, 0, 255);
+    border-radius: 8px;
+    padding: 10px;
+}
+.tarjeta h1 {
+    color: gray;
+}
+.tarjeta a {
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+    
+}
+.reigen {
+    max-width: 500px;
+    max-height: 400px;
+}
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
